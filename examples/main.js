@@ -3,10 +3,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import VuePicMagnifier from './index.js';
-Vue.use(VuePicMagnifier);
-
 Vue.config.productionTip = false;
+
+
+import VuePicMagnifier from '../packages/magnifier/index';
+Vue.use(VuePicMagnifier);
 
 new Vue({
   router,

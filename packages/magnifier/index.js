@@ -1,4 +1,4 @@
-import VuePicMagnifier from '@/components/VuePicMagnifier';
+import VuePicMagnifier from './src/VuePicMagnifier';
 const picMagnifier = {
     install (Vue, options) {
         Vue.component(VuePicMagnifier.name, VuePicMagnifier);
