@@ -25,7 +25,7 @@ export default {
     #pic_page {
         .pic_wrapper {
             width: 550px;
-            height: 261px;
+            // height: 261px;
             padding: 20px;
             border: 1px solid #000;
         }

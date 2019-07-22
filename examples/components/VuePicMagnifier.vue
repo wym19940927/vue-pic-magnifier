@@ -112,9 +112,10 @@ export default {
 <style lang="scss">
     #pic_magnifier {
         position: relative;
-        height: 100%;
+        // height: 100%;
         overflow: hidden;
         .origin_img {
+            display: block;
             width: 100%;
         }
         .pic_selector {
