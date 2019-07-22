@@ -8,6 +8,7 @@ npm install vue-pic-magnifier --save
 # 引入
 import VuePicMagnifier from 'vue-pic-magnifier'
 import 'vue-pic-magnifier/lib/vue-pic-magnifier.css'
+Vue.use(VuePicMagnifier)
 ```
 ## 参数
 ***
